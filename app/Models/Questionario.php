@@ -42,8 +42,10 @@ class Questionario extends Model {
         //1 - Conselheiro tutelar | 2 - Profissional da saude | 3 - População | 9 - Ignorado
         switch($this->attributes['denuncia']) {
             case 1: return 'Conselheiro tutelar';
-            case 2: return 'Profissional da saude';
-            case 3: return 'População';
+            case 2: return 'Profissional da saúde';
+            case 3: return 'Profissional da segurança pública'; 
+            case 4: return 'Profissional da educação';
+            case 5: return 'População';
             case 9: return 'Ignorado';
         }
         return $dados;

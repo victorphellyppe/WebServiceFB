@@ -28,4 +28,4 @@ php artisan migrate
 php aritsan db:seed
 ```
 
-O servidor estará pronto para uso com o usuário padrão: admin@admin.com e senha 123456.
+O servidor estará pronto para uso com o usuário padrão: admin@admin.com e senha 123456.# WebServiceFICABEM
